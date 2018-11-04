@@ -1,0 +1,37 @@
+<div id="background" class="container" class="text-center" class="colour">
+<div  >
+
+    <header id="size">TACCSO UKZN</header>
+                
+</div>
+ <div id=imageposition>
+<img  class="img-rounded" width="400" src="assets/images/TACC.jpeg">
+</div>
+<form action=""  (submit)="loginUser($event)">
+    <div id="input">
+            <label >Username</label>
+            <input type="text">
+    </div>
+    <div id="input">
+        <label >Password</label>
+        <input type="password">
+    </div>
+    <div class="alert alert-danger" *ngIf=incorrect >incorrect password </div>
+    <div >
+        <div class="container"> <!-- used to place items to the center-->
+        <input type="submit" value="Login" class="btn btn-default btn-lg btn-link navbar-btn" >
+    </div>
+    </div>
+    <br>
+    <div class="container">
+            <div >
+                
+        <input type="submit" value="Forgot Password" class="btn btn-default btn-lg btn-link" > 
+        <div class="pull-right">
+             <input type="submit" value="Register Account" class="btn btn-default btn-lg btn-link" >
+        </div>
+        </div>
+    </div>
+</form>
+</div>
+

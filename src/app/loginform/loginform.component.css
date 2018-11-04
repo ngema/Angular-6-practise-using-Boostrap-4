@@ -1,0 +1,43 @@
+
+#size{
+    text-align:center;
+    display: center;
+    font-size: 50px;
+    margin-top: 10px;
+    /*text-size-adjust: 100px;*/
+}
+/* host target the login form*/
+:host {/*select the shadow host of the DOM containing the css used inside */
+    flex-grow: 1;
+    display: flex;/*provides an easy and clean way to arrange items within a container*/
+    justify-content: center; /* defines how the browser distributs space between and around content ites */
+    align-items: center;
+}
+
+
+#input {
+    position: relative;
+    
+}
+
+#input label{
+    position:absolute;
+    top:5px;
+    transform: translateY(-50%);
+    left:50px;
+    background:white;
+    padding: 5px 2px;
+    font-size: 15px;
+    outline: none;
+}
+
+#input {
+    padding: 10px 20px;
+    font-size: 25px;
+    outline: none;
+}
+
+#input {
+    margin-top: 20px;
+
+}
